@@ -290,6 +290,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap (>= 1.1.0)
+  bundler-audit
   byebug
   capybara (>= 2.15)
   chromedriver-helper
