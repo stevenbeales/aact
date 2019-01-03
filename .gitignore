@@ -6,12 +6,17 @@
 
 # Ignore bundler config.
 /.bundle
+/vendor/bundle
 
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
 !/log/.keep
 !/tmp/.keep
+/coverage/
+/spec/tmp
+*.orig
+rerun.txt
 
 # Ignore uploaded files in development
 /storage/*
@@ -19,8 +24,14 @@
 
 /node_modules
 /yarn-error.log
+yarn-debug.log*
+.yarn-integrity
 
 /public/assets
+/public/packs
+/public/packs-test
+/public/system
+
 .byebug_history
 
 # Ignore master key for decrypting credentials and more.
