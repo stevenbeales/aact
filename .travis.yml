@@ -50,8 +50,8 @@ env:
 cache: bundler
 
 before_script:
-  - psql -c 'CREATE DATABASE fibro_test;' -U postgres
-  - psql -c "CREATE USER fibro WITH PASSWORD 'health';" -U postgres
+  - psql -c 'CREATE DATABASE aact_test;' -U postgres
+  - psql -c "CREATE USER aact WITH PASSWORD 'health';" -U postgres
   - "gem update --system"
   
 notifications:
