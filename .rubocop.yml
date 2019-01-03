@@ -198,3 +198,7 @@ Style/ExpandPathArguments:
 
 Style/BlockComments:
   Enabled: false
+
+Layout/TrailingBlankLines:
+  Enabled: false
+
