@@ -39,3 +39,4 @@ yarn-debug.log*
 .DS_Store
 spec/rspec.txt
 .vscode/settings.json
+
